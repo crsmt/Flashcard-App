@@ -34,7 +34,7 @@ function EditCard() {
   };
   const history = useHistory();
   const handleSubmit = (event) => {
-    let output = [];
+    // let output = [""];
     event.preventDefault();
     console.log('Submitted:', card);
     async function updateData() {

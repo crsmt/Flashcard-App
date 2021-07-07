@@ -10,7 +10,7 @@ function Card({ card }) {
       <p>{card.front}</p>
       <p>{card.back}</p>
       <Link to={`${url}/cards/${card.id}/edit`} className='btn btn-secondary'>Edit</Link>
-      <button className='btn btn-danger'><FontAwesomeIcon icon={faTrash}/></button>
+      {/* <button className='btn btn-danger'></></button> */}
     </div>
   );
 }
